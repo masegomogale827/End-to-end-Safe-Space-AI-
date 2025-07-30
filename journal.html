@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood Journal</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Personal Reflection Journal</h2>
+    <div class="moods">
+      <button onclick="saveMood(1)">😔</button>
+      <button onclick="saveMood(2)">😕</button>
+      <button onclick="saveMood(3)">😐</button>
+      <button onclick="saveMood(4)">🙂</button>
+      <button onclick="saveMood(5)">😄</button>
+    </div>
+    <canvas id="trendChart"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/journal.js"></script>
+</body>
+</html>

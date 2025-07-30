@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Report Incident</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Report Incident</h2>
+    <button onclick="startRecording()">🎙 Tap to Record</button>
+    <textarea id="transcript" placeholder="Describe the issue..."></textarea>
+    <input type="text" placeholder="Category">
+    <p>Using Location: <span id="location"></span></p>
+    <button onclick="submitReport()">Submit Report</button>
+  </div>
+  <script src="js/speech.js"></script>
+</body>
+</html>
